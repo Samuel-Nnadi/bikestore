@@ -1,19 +1,16 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-    <!-- ========================= SECTION MAIN ========================= -->
     <section class="section-intro padding-y-sm">
         <div class="container">
 
             <div class="intro-banner-wrap">
-                <img src="{% static 'images/banners/cover.jpg' %}" class="img-fluid rounded">
+                <img src="{% static 'images/banners/cover.webp' %}" class="img-fluid rounded">
             </div>
 
         </div> <!-- container //  -->
     </section>
-    <!-- ========================= SECTION MAIN END// ========================= -->
 
-    <!-- ========================= SECTION  ========================= -->
     <section class="section-name padding-y-sm">
         <div class="container">
 
@@ -30,7 +27,7 @@
                         <a href="{{product.get_url}}" class="img-wrap"> <img src="{{product.images.url}}"> </a>
                         <figcaption class="info-wrap">
                             <a href="{{product.get_url}}" class="title">{{product.product_name}}</a>
-                            <div class="price mt-1">GH₵ {{product.price}}</div> <!-- price-wrap.// -->
+                            <div class="price mt-1 text-danger">GH₵ {{product.price}}</div> <!-- price-wrap.// -->
                         </figcaption>
                     </div>
                 </div> <!-- col.// -->
@@ -39,7 +36,6 @@
 
         </div><!-- container // -->
     </section>
-    <!-- ========================= SECTION  END// ========================= -->
 
 
 
