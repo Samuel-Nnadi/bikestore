@@ -1,0 +1,21 @@
+{% autoescape off %}
+Dear {{user.first_name}},
+
+Thank you for registering with Bikeflex! We're thrilled to have you on board.
+
+To complete your registration and gain full access to our platform, please click the link below to verify your email address:
+
+http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+By confirming your email, you'll enjoy all the benefits of being a part of our community, including [mention a key benefit or feature].
+
+If you have any questions or need assistance, please don't hesitate to reach out to our support team at info@bikeflex.com.
+
+Welcome to Bikeflex | The Largest Bikestore Platform.
+
+
+If you think it's not you, please ignore this email.
+
+Best regards,
+The Bikeflex Team.
+{% endautoescape %}
