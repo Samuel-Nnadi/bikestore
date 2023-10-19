@@ -129,7 +129,6 @@ def add_cart(request, product_id):
 
 
 def remove_cart(request, product_id, cart_item_id):
-
     product = get_object_or_404(Product, id=product_id)
     try:
         if request.user.is_authenticated:
