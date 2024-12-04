@@ -79,21 +79,19 @@ Currently, the checkout process stops short of integrating a live payment gatewa
    git clone https://github.com/Samuel-Nnadi/bikestore.git
    cd bikestore
 
-2. Create and activate python environment:
-    python -m venv venv
-    venv\Scripts\activate
-
-3. Install dependencies:
+2. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
-4. Run database migrations:
-    python manage.py makemigrations
+3. Run database migrations:
+    ```bash
     python manage.py migrate
 
-5. Start the server:
+4. Start the server:
+    ```bash
     python manage.py runserver
 
-6. Open your browser and navigate to http://127.0.0.1:8000
+5. Open your browser and navigate to http://127.0.0.1:8000
 
 ---
 
@@ -101,5 +99,5 @@ Currently, the checkout process stops short of integrating a live payment gatewa
 - CS50: For providing a comprehensive course that enabled me to build this project.
 - Django Documentation: For its excellent resources that guided the development process.
 - Friends and Family: For their support and feedback.
-    
+
 ### ***Thank you for exploring Bikeflex!***
