@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-n^blib2_3h&-ek2z7#k44gtoh1k3=tar@dn!@7108*d6kxc-7p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'bikeflex.onrender.com']
 
 
 # Application definition
