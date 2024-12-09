@@ -1,5 +1,5 @@
 # Bikeflex: Your Electric Bike Marketplace
-#### Video Demo: [Watch the Demo Here](<URL HERE>)
+#### Video Demo: [Watch the Demo Here](https://youtu.be/PlkPDkzHR78?si=DmvNRWRfdIeOSAjM)
 #### Description:
 
 Bikeflex is an e-commerce platform dedicated to electric bikes. It enables users to browse, search, and purchase electric bikes from a wide range of options. The platform is designed with user experience in mind, offering a seamless interface for both customers and administrators. Built using Django, HTML, CSS, and SQLite3, Bikeflex demonstrates the power of web technologies in creating a functional and responsive online store.
